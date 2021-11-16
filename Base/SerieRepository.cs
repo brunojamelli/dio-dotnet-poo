@@ -6,34 +6,35 @@ namespace dio_dotnet_poo.Base
 {
     public class SerieRepository : IRepository<Serie>
     {
+        private List<Serie> listSeries = new List<Serie>();
         public void delete(int id)
         {
-            throw new NotImplementedException();
+            listSeries[id].Excluir();
         }
 
         public Serie getById(int id)
         {
-            throw new NotImplementedException();
+            return listSeries[id];
         }
 
         public void insert(Serie entity)
         {
-            throw new NotImplementedException();
+            listSeries.Add(entity);
         }
 
         public List<Serie> listAll()
         {
-            throw new NotImplementedException();
+            return listSeries;
         }
 
         public int nextId()
         {
-            throw new NotImplementedException();
+            return listSeries.Count;
         }
 
         public void update(int id, Serie entity)
         {
-            throw new NotImplementedException();
+            listSeries[id] = entity;
         }
     }
 }
