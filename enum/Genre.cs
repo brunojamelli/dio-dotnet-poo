@@ -1,6 +1,6 @@
 namespace dio_dotnet_poo
 {
-    public enum Genero
+    public enum Genre
 	{
 		Acao = 1,
 		Aventura = 2,
