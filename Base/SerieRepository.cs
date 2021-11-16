@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using dio_dotnet_poo.Interfaces;
 
-namespace dio_dotnet_poo.Base
+namespace dio_dotnet_poo
 {
     public class SerieRepository : IRepository<Serie>
     {

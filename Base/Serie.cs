@@ -33,7 +33,7 @@ namespace dio_dotnet_poo
 			return retorno;
 		}
 
-        public string retornatitle()
+        public string getTitle()
 		{
 			return this.title;
 		}
@@ -42,7 +42,7 @@ namespace dio_dotnet_poo
 		{
 			return this.Id;
 		}
-        public bool retornaerased()
+        public bool returnErased()
 		{
 			return this.erased;
 		}
