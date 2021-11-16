@@ -26,7 +26,7 @@ namespace dio_dotnet_poo
 			// Environment.NewLine https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view=netcore-3.1
             string retorno = "";
             retorno += "Gênero: " + this.genre + Environment.NewLine;
-            retorno += "title: " + this.title + Environment.NewLine;
+            retorno += "Titulo: " + this.title + Environment.NewLine;
             retorno += "Descrição: " + this.description + Environment.NewLine;
             retorno += "ano de Início: " + this.year + Environment.NewLine;
             retorno += "Excluido: " + this.erased;
